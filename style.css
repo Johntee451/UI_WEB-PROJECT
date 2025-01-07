@@ -1,10 +1,11 @@
 /*BEGINNING of the body styling*/
 
 body{
-    background-image: url("./IMAGES/phoenix1.jpg");
+    background-image: url("./IMAGES/human1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: Comic Sans MS;
 }
 
 /*END of the body styling*/
@@ -29,16 +30,17 @@ body{
     align-items:center;
     padding:5px;
     /*border:4px solid yellow;*/
-    /*background:violet;*/
+    
 }
     
 .header-Div .logo-Div .websiteLogo-Div{
     flex:1;
     padding:10px;
     border-radius:10px;
-    border:2px solid violet;
+    /*border:2px solid violet;*/
     /*font-size:40px;*/
-    font-family:serif;
+    Background:rgb(117, 82, 117);
+    /*font-family: monospace;*/
 }
     
 .header-Div .nav-Div{
@@ -56,10 +58,10 @@ body{
     flex:1;
     padding:10px;
     border-radius:10px;
-    border:2px solid violet;
+    /*border:2px solid violet;*/
     /*font-size:20px;*/
-    font-family:roboto;
-    /*Background:violet;*/
+    /*font-family: monospace;*/
+    Background:rgb(117, 82, 117);
 }
 
 /*END of the header-navigation styling*/
@@ -89,15 +91,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border:5px solid violet;
-    border-radius: 10px;
+    /*border:5px solid violet;*/
+    /*border-radius: 10px;*/
     padding: 20px;
 }
 
 .firstBody-Div .firstBodyDesc-Div h1{
     flex: 1;
-    font-family: monospace;
-    font-size: 50px;
+    font-family: Comic Sans MS;
+    font-size: 70px;
 }
 
 .firstBody-Div .firstBodyLogin-Div{
@@ -105,11 +107,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border:5px solid violet;
-    border-radius: 10px;
+    /*border:5px solid violet;*/
+    border-radius: 70px;
     padding: 50px;
     gap: 50px;
-
+    background: rgb(236, 231, 238);
 }
 
 .firstBody-Div .firstBodyLogin-Div .firstBodyUserPass-Div{
@@ -117,16 +119,17 @@ body{
     flex-wrap: wrap;
     padding: 20px;
     align-self: center;
-    border-radius:10px;
-    border:3px solid violet;
+    border-radius:30px;
+    /*border:3px solid violet;*/
+    Background:rgb(117, 82, 117);
 }
 
 .firstBody-Div .firstBodyLogin-Div .firstBodyResLog-Div{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:3px solid violet;
-    border-radius: 10px;
+    /*border:3px solid violet;*/
+    border-radius: 20px;
     padding: 20px;
     gap: 50px;
 }
@@ -134,23 +137,25 @@ body{
 .firstBody-Div .firstBodyLogin-Div .firstBodyResLog-Div div{
     flex: 1;
     padding: 10px;
-    border:3px solid violet;
-    border-radius: 10px;
+    /*border:3px solid violet;*/
+    Background:rgb(117, 82, 117);
+    border-radius: 20px;
 }
 
 .firstBody-Div .firstBodyLogin-Div .firstBodyForgetPass-Div{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:3px solid violet;
-    border-radius: 10px;
+    /*border:3px solid violet;*/
+    background: rgb(117, 82, 117);
+    border-radius: 50px;
     padding: 20px;
 }
 
 .firstBody-Div .firstBodyLogin-Div .firstBodyForgetPass-Div div{
     flex: 1;
     flex-wrap: wrap;
-    color: pink;
+    color: rgb(236, 228, 229);
 }
 
 
@@ -183,7 +188,8 @@ body{
 .secondBody-Div .founder-Div{
     flex:1;
     padding:20px;
-    border:1px solid violet;
+    /*border:1px solid violet;*/
+    Background:rgb(117, 82, 117);
     border-radius: 10px;
 }
 
@@ -202,22 +208,25 @@ body{
     justify-content: space-between;
     align-items:center;
     flex-direction:column;
-    padding:10px;
-    border:2px solid violet;
-    border-radius: 5px;
+    padding:20px;
+    /*border:2px solid violet;*/
+    background: rgb(191, 174, 197);
+    border-radius: 30px;
     gap: 30px;
 }
 
 .secondBody-Div .imageDesc-Div .singleImageDesc-Div .image-Div{
     flex:1;
-    border:1px solid violet;
+    /*border:1px solid violet;*/
+    Background:rgb(117, 82, 117);
     border-radius: 10px;
     padding:10px;
 }
 
 .secondBody-Div .imageDesc-Div .singleImageDesc-Div .description-Div{
     flex:1;
-    border:1px solid violet;
+    /*border:1px solid violet;*/
+    Background:rgb(117, 82, 117);
     border-radius: 10px;
     padding:10px;
 }
@@ -253,9 +262,10 @@ body{
     
     padding:10px;
     border-radius:10px;
-    border:1px solid violet;
+    /*border:1px solid violet;*/
+    Background:rgb(117, 82, 117);
     /*font-size:20px;*/
-    font-family:roboto;
+    /*font-family:roboto;*/
     /*Background:violet;*/
 }
 
